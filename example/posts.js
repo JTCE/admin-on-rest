@@ -18,11 +18,10 @@ import {
     ShowButton,
     ReferenceManyField,
     RichTextField,
-    RichTextInput,
     TextField,
     TextInput,
 } from 'admin-on-rest/mui';
-
+import RichTextInput from 'aor-rich-text-input';
 export PostIcon from 'material-ui/svg-icons/action/book';
 
 const PostFilter = (props) => (
